@@ -1,0 +1,397 @@
+* {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.header_part {
+  display: flex;
+  justify-content: flex-end;
+}
+.docplaner_nav {
+  display: flex;
+  list-style: none;
+  margin-right: 199px;
+  padding-top: 29px;
+  padding-left: 103px;
+  font-size: 19px;
+  justify-content: space-between;
+}
+ul {
+  font-family: Arial, Verdana;
+  font-size: 14px;
+}
+li a {
+  color: #ababab;
+}
+.dropdown {
+  color: #aabbaa;
+}
+
+.docplaner_nav li a {
+  margin-right: 20px;
+}
+
+ul li {
+  position: relative;
+  float: left;
+}
+li ul {
+  display: none;
+}
+ul li a {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  color: #747474;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+.dropdown-content ul li {
+  list-style: none;
+  padding: 5px;
+  background-color: white;
+}
+
+ul li a:hover {
+  background: #f7faf6;
+  color: #00b39b;
+  text-decoration: none;
+}
+.dropdown a:hover {
+  background: #f7faf6;
+  color: #00b39b;
+}
+li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover a {
+  background: #ffffff;
+  color: #00b39b;
+}
+li:hover li a:hover {
+  background: #e5e6e7;
+  color: #00b39b;
+}
+/*logo*/
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+}
+
+/***************************************************$
+/*partieabout*/
+#abou {
+  color: #00b39b;
+}
+
+/*-partie logo 2-*/
+.scd_logo {
+  top: 70px;
+  left: 615px;
+  height: 51px;
+}
+/*-partieh1-*/
+.logo2 {
+  display: flex;
+  margin-left: 811px;
+  margin-top: 78px;
+  margin-bottom: 26px;
+}
+
+.logo2 h2 {
+  color: #00b39b;
+  position: relative;
+  top: 104px;
+  letter-spacing: 0.3px;
+  margin-right: 70px;
+  margin-left: -500px;
+  font-size: 42px;
+}
+/*les deux para-*/
+.para {
+  display: flex;
+  margin: 20px;
+  padding-left: 165px;
+}
+.para p {
+  display: block;
+  color: #747474;
+  font-size: 20px;
+  line-height: 1.8;
+
+  margin-right: 129px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+}
+/*-flex pour les deux container*/
+.b {
+  display: flex;
+}
+.container {
+  border-radius: 10px;
+
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.text_company {
+  float: left;
+  width: 33%;
+  font-size: 1.925em;
+  color: #00b39b;
+  margin-right: 29px;
+  margin-bottom: 13px;
+  margin-left: 166px;
+  margin-top: -44px;
+}
+/*firstcontainer*/
+.first_container {
+  background: #00b39b;
+  height: 452px;
+  width: 581px;
+  margin-left: 174px;
+  margin-right: 94px;
+}
+.service_patient_selector {
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-size: 21px;
+  height: 36px;
+  border: none;
+  margin-left: 15px;
+}
+
+.text_first_container {
+  font-size: 1.625em;
+  color: #fff;
+  margin-top: 0.3em;
+}
+.service_patients {
+  position: absolute;
+}
+.pc_hommeimgdroite {
+  position: relative;
+  height: 321px;
+  width: 400px;
+  margin-left: 190px;
+  margin-top: -34px;
+}
+
+/*secnd container*/
+.secnd_container {
+  background: #3d83df;
+  height: 452px;
+  width: 581px;
+}
+.services_docteurs {
+  font-size: 1.625em;
+  color: #fff;
+  margin-top: 0.3em;
+  position: absolute;
+}
+.pc_hommeimggauche {
+  position: relative;
+  height: 321px;
+  width: 400px;
+
+  margin-left: 188px;
+}
+/*flex our centrer les deux images*/
+.partie_lien {
+  display: flex;
+}
+
+.section__inner {
+  zoom: 1;
+  padding: 0 20px;
+}
+.text_company {
+  float: left;
+  width: 33%;
+  font-size: 36px;
+  color: #00b39b;
+  margin-right: 20px;
+}
+.section-2 {
+  float: left;
+  width: 67%;
+  list-style: none;
+  color: #747474;
+  margin-top: -57px;
+}
+.section-2 ul {
+  margin-top: -26px;
+  margin-bottom: 2rem;
+}
+.section-2 li {
+  font-size: 1rem;
+  width: 191px;
+  padding: 15px 7px;
+  font-size: 26px;
+}
+/*la derniere partie*/
+
+.d {
+  background: #e5faf8;
+
+  padding: 1.875em 0 0.625em;
+  overflow: hidden;
+  margin: 3.125rem auto 5.5rem;
+  display: flex;
+}
+.img_bleu_contenaire {
+  background-color: #e5faf8;
+}
+.grid {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+}
+.text_bleu {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 39px 0 0 170px;
+  padding-top: 105px;
+}
+.text_bleu h2 {
+  font-size: 2.8em;
+  color: #00b39b;
+}
+.text_bleu p {
+  margin: 1.6em 0;
+  color: #747474;
+  font-size: 20px;
+}
+/*le grides*/
+.col-2 {
+  min-width: 55%;
+}
+.grid .stats__grid .fade-elements {
+  display: flex;
+  flex-wrap: wrap;
+}
+.erpartie {
+  margin-right: -166px;
+  /* margin-top: 1px; */
+  padding-left: 6px;
+}
+.ndpartie {
+  margin-left: -95px;
+  margin-right: 200px;
+  margin-top: -28px;
+}
+
+.fade-elements__visible {
+  background-color: rgb(255, 255, 255);
+  width: 240px;
+  border: 1px solid transparent;
+  box-shadow: 0 5px 10px 0 rgb(190, 187, 187);
+  padding: 30px;
+
+  margin-bottom: 72px;
+  margin-left: 42px;
+  margin-top: 16px;
+  padding-right: 0px;
+  border-radius: 7px;
+  display: flex;
+}
+.stats__item {
+  text-align: center;
+}
+
+.stats__item h3 {
+  color: #00b39b;
+  margin-top: 31px;
+  margin-left: 2px;
+  margin-right: 25px;
+}
+.stats__item p {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 41px;
+  margin-left: 1px;
+  font-size: 15px;
+}
+
+/*partie before footer*/
+
+/*partie text*/
+.f {
+  display: flex;
+}
+.contenaire_images {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 84px;
+  padding-top: 20px;
+}
+.text_lot_images {
+  text-align: center;
+  color: #00b39b;
+  letter-spacing: 0.3px;
+}
+.text_lot_images h2 {
+  margin-top: 39px;
+}
+.text_lot_images p {
+  text-align: center;
+  color: #747474;
+  margin: 1.6em 0;
+  font-size: 20px;
+}
+.images_lot_images {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+
+  padding-bottom: 35px;
+  background: #fff;
+
+  margin-bottom: 30px;
+}
+.images_lot_images:hover {
+  box-shadow: 0 5px 10px 0 rgb(190, 187, 187);
+  border-radius: 8px;
+}
+
+.office__image img {
+  display: block;
+  margin: 0 auto;
+  width: 430px;
+  height: 360px;
+}
+/*partieboutton*/
+.office__desc {
+  color: #747474;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.btn--small {
+  padding: 5px;
+  border: solid #3d83df;
+  border-radius: 6px;
+  background-color: #3d83df;
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+/*footer*/
+.section_footer {
+  border-top: 1px solid #eef2f2;
+
+  color: #ababab;
+  text-align: center;
+}
+.foot {
+  margin: 20px;
+}
+.section_footer p {
+  font-size: 17px;
+  line-height: 35px;
+}
